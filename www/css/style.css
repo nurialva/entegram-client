@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/SourceSansPro-Regular.ttf');
+}
+@font-face {
+    font-family: 'Aref Ruqaa';
+    src: url('../fonts/ArefRuqaa-Bold.ttf');
+}
+@font-face {
+    font-family: 'Allura';
+    src: url('../fonts/Allura-Regular.ttf');
+}
+@font-face {
+    font-family: 'Marck Script';
+    src: url('../fonts/MarckScript-Regular.ttf');
+}
+
+h1, h2, h3, h4, h5, h6, p , a , div, span, button , input , textarea , select {
+    font-family: 'Source Sans Pro',sans-serif;
+}
+hr {
+    box-sizing:content-box;height:0;overflow:visible;
+}
+.clear-both {
+    clear: both;
+}
+.border-around {
+    box-sizing:content-box;height:0;overflow:visible;
+}
+p { margin: 0px;}
+.brand-logo {
+    font-family: 'Marck Script', cursive;
+}
+.barefoot {
+    margin-top:90px;
+}
+.handheld {
+    border:1px solid #ccc!important;
+    width:100%;
+    position: fixed;
+    bottom: 0;
+}
+.handheld-content {
+    padding-top:15px;
+}
+.feed-profile-tab {
+    margin: 0px;
+}
+.feed-post {
+    margin-top: 15px;
+}
+.account-page {
+    margin-top: 20px;
+}
+.account-page-detail {
+    padding: 10px;
+    margin-top: -25px;
+}
+.account-page-avatar {
+    width: 100%;
+    text-align: center;
+}
+.account-page-avatar-img {
+    width: 75px;
+}

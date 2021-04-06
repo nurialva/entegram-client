@@ -1,0 +1,40 @@
+p { margin: 0; }
+.page {  }
+.header { text-align: center;}
+.f4-landscape { width: 33cm; height: 21cm;}
+.f4-potrait { height: 33cm; width: 21cm; margin-left: auto;margin-right: auto;}
+.justify-middle { text-align: center; vertical-align: middle; }
+td , tr { margin: 0px; padding:2px;}
+
+.mdta-01 { width:54mm;height:85mm;border: solid 1px blue; }
+.frame { width: 100%; margin-top:-185px;}
+/* .data_container { margin-top:-230px; } */
+.text_01 { height:10px; font-size:10px;text-align:center;margin-top:80px;} 
+.text_02 { height:10px; font-size:10px;text-align:center;} 
+.avatar-container { height: 100px; width:100%; text-align:center;}
+.avatar-tc { width:120px;} 
+.text_03 { margin-top:-70px;text-shadow:none; color:black;text-align:center;}
+.text_04 { color:#fff;text-align:center;text-shadow:none; color:black;}
+
+.att-signature {  padding:10px; text-align:right;}
+.att-header { 
+padding:5px; width:100%;}
+.att-logo { width:10%;float:left;}
+.att-logo-img  { width:70px;}
+.att-init { width:60%;float:left;}
+.att-date { float:left;}
+.att-data { font-size: 12px;margin-top:12px; clear:both;}
+@media print {
+body * { visibility: hidden; }
+#page, #page * { visibility: visible; }
+#page { position: absolute; left: 0; top: 0; }
+}
+
+.cln-container { padding:10px;}
+.cln-header { margin-bottom:20px;}
+.cln-logo {text-align:center; }
+.cln-logo-img {  width:70px;}
+.cln-header-content { width:70%; float: left; }
+.cln-data-container { clear: both; margin-top:20px;}
+.day_name { font-size:24px;}
+.cln-header-text { margin-top:10px;}

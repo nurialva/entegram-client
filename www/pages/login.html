@@ -1,0 +1,31 @@
+<div class="login-page">
+    <div class="row">
+        <div class="col s12">
+            <div class="input-field">
+                <h4> <span class="brand-logo">Entegram</span> </h4>
+                <p>Login tanpa Password dengan OTP.</p>
+            </div>
+        </div>
+        <div class="col s12">
+            <div class="input-field">
+                <input type="text" name="email" id="">
+                <label for="">Email</label>
+            </div>
+        </div>
+        <div class="col s12">
+            <div class="input-field">
+                <button class="btn btn-small"> Kirim OTP </button>
+            </div>
+            <hr>
+            <p class="signup-page">Ingin membuat akun?</p>
+        </div>
+    </div>
+</div>
+
+<script>
+$('.signup-page').on('click', function(e){
+    e.preventDefault;
+    $('.appContainer').load('pages/signup.html');
+})
+
+</script>
